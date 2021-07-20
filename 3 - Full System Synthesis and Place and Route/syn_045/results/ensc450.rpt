@@ -1,0 +1,190 @@
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : reference
+Design : ensc450
+Version: O-2018.06-SP5
+Date   : Tue Apr 20 17:58:56 2021
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+DMA_1_32_32                    2464.489976       1   2464.489976  h, n
+INV_X1             NangateOpenCellLibrary
+                                  0.532000       5      2.660000  
+INV_X2             NangateOpenCellLibrary
+                                  0.798000       2      1.596000  
+INV_X4             NangateOpenCellLibrary
+                                  1.330000       1      1.330000  
+SRAM               SRAM       14884.000000       1  14884.000000  b, d
+aes128keyWrapper   aes128keyWrapper
+                              33818.601562       1  33818.601562  d
+counter_32_4_1                 2235.198009       1   2235.198009  h, n
+ubus_32_32_40001000_400017ff_20000000_2000000f_a0000000_a000000f_b0000000_b00000ff
+                                676.437997       1    676.437997  h, n
+-----------------------------------------------------------------------------
+Total 8 references                                  54084.313545
+1
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -transition_time
+        -capacitance
+Design : ensc450
+Version: O-2018.06-SP5
+Date   : Tue Apr 20 17:58:56 2021
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: My_DMA/waddr_reg_reg[0]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: My_DMA/waddr_reg_reg[31]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  ensc450            5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                          Cap     Trans      Incr       Path
+  ------------------------------------------------------------------------------------
+  clock CLK (rise edge)                                             0.00       0.00
+  clock network delay (ideal)                                       0.00       0.00
+  My_DMA/waddr_reg_reg[0]/CK (DFF_X1)                     0.00      0.00       0.00 r
+  My_DMA/waddr_reg_reg[0]/Q (DFF_X1)            8.02      0.03      0.26       0.26 f
+  My_DMA/add_116/A[0] (DMA_1_32_32_DW01_add_0)                      0.00       0.26 f
+  My_DMA/add_116/U13/ZN (NAND2_X2)              3.45      0.03      0.08       0.35 r
+  My_DMA/add_116/U14/ZN (INV_X2)                2.94      0.01      0.04       0.39 f
+  My_DMA/add_116/U1_1/CO (FA_X1)                2.94      0.05      0.28       0.67 f
+  My_DMA/add_116/U1_2/CO (FA_X1)                2.94      0.05      0.30       0.97 f
+  My_DMA/add_116/U1_3/CO (FA_X1)                2.94      0.05      0.30       1.26 f
+  My_DMA/add_116/U1_4/CO (FA_X1)                2.94      0.05      0.30       1.56 f
+  My_DMA/add_116/U1_5/CO (FA_X1)                2.94      0.05      0.30       1.85 f
+  My_DMA/add_116/U1_6/CO (FA_X1)                2.94      0.05      0.30       2.15 f
+  My_DMA/add_116/U1_7/CO (FA_X1)                2.94      0.05      0.30       2.44 f
+  My_DMA/add_116/U1_8/CO (FA_X1)                2.94      0.05      0.30       2.74 f
+  My_DMA/add_116/U1_9/CO (FA_X1)                2.94      0.05      0.30       3.03 f
+  My_DMA/add_116/U1_10/CO (FA_X1)               2.94      0.05      0.30       3.33 f
+  My_DMA/add_116/U1_11/CO (FA_X1)               2.94      0.05      0.30       3.62 f
+  My_DMA/add_116/U1_12/CO (FA_X1)               2.94      0.05      0.30       3.92 f
+  My_DMA/add_116/U1_13/CO (FA_X1)               6.20      0.06      0.32       4.24 f
+  My_DMA/add_116/U10/ZN (NAND2_X1)              1.91      0.03      0.09       4.32 r
+  My_DMA/add_116/U12/ZN (NAND3_X1)              2.94      0.03      0.08       4.40 f
+  My_DMA/add_116/U1_15/CO (FA_X1)               2.94      0.05      0.29       4.69 f
+  My_DMA/add_116/U1_16/CO (FA_X1)               2.94      0.05      0.30       4.99 f
+  My_DMA/add_116/U1_17/CO (FA_X1)               2.94      0.05      0.30       5.28 f
+  My_DMA/add_116/U1_18/CO (FA_X1)               2.94      0.05      0.30       5.58 f
+  My_DMA/add_116/U1_19/CO (FA_X1)               2.94      0.05      0.30       5.87 f
+  My_DMA/add_116/U1_20/CO (FA_X1)               2.94      0.05      0.30       6.17 f
+  My_DMA/add_116/U1_21/CO (FA_X1)               2.94      0.05      0.30       6.46 f
+  My_DMA/add_116/U1_22/CO (FA_X1)               2.94      0.05      0.30       6.76 f
+  My_DMA/add_116/U1_23/CO (FA_X1)               6.20      0.06      0.32       7.08 f
+  My_DMA/add_116/U4/ZN (NAND2_X1)               1.91      0.03      0.09       7.16 r
+  My_DMA/add_116/U6/ZN (NAND3_X1)               2.94      0.03      0.08       7.24 f
+  My_DMA/add_116/U1_25/CO (FA_X1)               2.94      0.05      0.29       7.53 f
+  My_DMA/add_116/U1_26/CO (FA_X1)               2.94      0.05      0.30       7.83 f
+  My_DMA/add_116/U1_27/CO (FA_X1)               2.94      0.05      0.30       8.12 f
+  My_DMA/add_116/U1_28/CO (FA_X1)               2.94      0.05      0.30       8.42 f
+  My_DMA/add_116/U1_29/CO (FA_X1)               2.94      0.05      0.30       8.71 f
+  My_DMA/add_116/U1_30/CO (FA_X1)               2.94      0.05      0.30       9.01 f
+  My_DMA/add_116/U1_31/S (FA_X1)                1.76      0.05      0.37       9.38 f
+  My_DMA/add_116/SUM[31] (DMA_1_32_32_DW01_add_0)                   0.00       9.38 f
+  My_DMA/U77/ZN (AOI22_X1)                      1.92      0.10      0.14       9.52 r
+  My_DMA/U673/ZN (NAND2_X1)                     1.34      0.02      0.07       9.59 f
+  My_DMA/waddr_reg_reg[31]/D (DFF_X1)                     0.02      0.01       9.60 f
+  data arrival time                                                            9.60
+
+  clock CLK (rise edge)                                            10.00      10.00
+  clock network delay (ideal)                                       0.00      10.00
+  My_DMA/waddr_reg_reg[31]/CK (DFF_X1)                              0.00      10.00 r
+  library setup time                                               -0.16       9.84
+  data required time                                                           9.84
+  ------------------------------------------------------------------------------------
+  data required time                                                           9.84
+  data arrival time                                                           -9.60
+  ------------------------------------------------------------------------------------
+  slack (MET)                                                                  0.24
+
+
+1
+Loading db file '/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/DB/NangateOpenCellLibrary_slow.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : ensc450
+Version: O-2018.06-SP5
+Date   : Tue Apr 20 17:58:57 2021
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/DB/NangateOpenCellLibrary_slow.db)
+    aes128keyWrapper (File: /ensc/cmc_homedirs/escmc29/ensc450/ENSC450finalproject/Part2/BE_045/results/aes128keyWrapper_slow.db)
+    SRAM (File: /CMC/setups/ensc450/Project/SRAM_Lib/SRAM.db)
+
+Information: The library cell 'SRAM' in the library 'SRAM' is not characterized for internal power. (PWR-227)
+Information: The library cell 'aes128keyWrapper' in the library 'aes128keyWrapper' is not characterized for internal power. (PWR-227)
+Information: The design contains cells, other than constants and black boxes, that are not characterized for internal power. (PWR-228)
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+ensc450                5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  = 215.3706 uW   (95%)
+  Net Switching Power  =  11.2249 uW    (5%)
+                         ---------
+Total Dynamic Power    = 226.5954 uW  (100%)
+
+Cell Leakage Power     =  74.9671 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.5526            0.0000            0.5526  (   0.18%)
+clock_network      0.0000            0.0000        3.6593e+03            3.6593  (   1.21%)
+register         212.4404            0.1679        2.1342e+04          233.9495  (  77.58%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      2.9299           10.5044        4.9966e+04           63.4006  (  21.02%)
+--------------------------------------------------------------------------------------------------
+Total            215.3703 uW        11.2249 uW     7.4967e+04 nW       301.5621 uW
+1

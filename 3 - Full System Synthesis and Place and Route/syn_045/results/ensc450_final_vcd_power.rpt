@@ -1,0 +1,128 @@
+Information: Updating design information... (UID-85)
+Information: Propagating switching activity (high effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -analysis_effort high
+Design : ensc450
+Version: O-2018.06-SP5
+Date   : Tue Apr 20 19:09:23 2021
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/DB/NangateOpenCellLibrary_slow.db)
+    aes128keyWrapper (File: /ensc/cmc_homedirs/escmc29/ensc450/ENSC450finalproject/Part2/BE_045/results/aes128keyWrapper_slow.db)
+    SRAM (File: /CMC/setups/ensc450/Project/SRAM_Lib/SRAM.db)
+
+Information: The library cell 'SRAM' in the library 'SRAM' is not characterized for internal power. (PWR-227)
+Information: The library cell 'aes128keyWrapper' in the library 'aes128keyWrapper' is not characterized for internal power. (PWR-227)
+Information: The design contains cells, other than constants and black boxes, that are not characterized for internal power. (PWR-228)
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+ensc450                5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  = 134.7541 uW   (60%)
+  Net Switching Power  =  90.4693 uW   (40%)
+                         ---------
+Total Dynamic Power    = 225.2234 uW  (100%)
+
+Cell Leakage Power     =  66.5395 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            5.5260            0.0000            5.5260  (   1.89%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential       106.7112            0.4527        2.1353e+04          128.5169  (  44.05%)
+combinational     28.0428           84.4903        4.5187e+04          157.7201  (  54.06%)
+--------------------------------------------------------------------------------------------------
+Total            134.7540 uW        90.4691 uW     6.6540e+04 nW       291.7631 uW
+1
+Information: Updating design information... (UID-85)
+Information: Propagating switching activity (high effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Invalid switching activity annotation on constant net(s) is being ignored. (PWR-421)
+ 
+****************************************
+Report : power
+        -analysis_effort high
+Design : ensc450
+Version: O-2018.06-SP5
+Date   : Tue Apr 20 19:11:37 2021
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/DB/NangateOpenCellLibrary_slow.db)
+    aes128keyWrapper (File: /ensc/cmc_homedirs/escmc29/ensc450/ENSC450finalproject/Part2/BE_045/results/aes128keyWrapper_slow.db)
+    SRAM (File: /CMC/setups/ensc450/Project/SRAM_Lib/SRAM.db)
+
+Information: The library cell 'SRAM' in the library 'SRAM' is not characterized for internal power. (PWR-227)
+Information: The library cell 'aes128keyWrapper' in the library 'aes128keyWrapper' is not characterized for internal power. (PWR-227)
+Information: The design contains cells, other than constants and black boxes, that are not characterized for internal power. (PWR-228)
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+ensc450                5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 0.95 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  = 106.1923 uW   (92%)
+  Net Switching Power  =   9.3103 uW    (8%)
+                         ---------
+Total Dynamic Power    = 115.5026 uW  (100%)
+
+Cell Leakage Power     =  67.4189 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000        7.2036e-02            0.0000        7.2036e-02  (   0.04%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential       102.0469            0.9987        2.1439e+04          124.4851  (  68.05%)
+combinational      4.1453            8.2397        4.5979e+04           58.3645  (  31.91%)
+--------------------------------------------------------------------------------------------------
+Total            106.1922 uW         9.3104 uW     6.7419e+04 nW       182.9216 uW
+1

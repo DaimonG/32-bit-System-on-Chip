@@ -1,0 +1,72 @@
+[04/16 22:49:39      0s] 
+[04/16 22:49:39      0s] Cadence Innovus(TM) Implementation System.
+[04/16 22:49:39      0s] Copyright 2018 Cadence Design Systems, Inc. All rights reserved worldwide.
+[04/16 22:49:39      0s] 
+[04/16 22:49:39      0s] Version:	v18.10-p002_1, built Tue May 29 19:19:55 PDT 2018
+[04/16 22:49:39      0s] Options:	
+[04/16 22:49:39      0s] Date:		Fri Apr 16 22:49:39 2021
+[04/16 22:49:39      0s] Host:		ensc-esil-17 (x86_64 w/Linux 3.10.0-1127.el7.x86_64) (4cores*8cpus*Intel(R) Core(TM) i7-4770S CPU @ 3.10GHz 8192KB)
+[04/16 22:49:39      0s] OS:		CentOS Linux release 7.8.2003 (Core)
+[04/16 22:49:39      0s] 
+[04/16 22:49:39      0s] License:
+[04/16 22:49:40      0s] 		invs	Innovus Implementation System	18.1	checkout succeeded
+[04/16 22:49:40      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[04/16 22:49:41      0s] **ERROR: (IMPOAX-142):	Could not open shared library libinnovusoax22.so : /Lnx_STC/tools/cadence/INNOVUS18.10.000_lnx86/tools.lnx86/lib/64bit/libddbase_sh.so: undefined symbol: _ZTIN12OpenAccess_419oaVersionedObserverINS_12oaLibDefListELj1EEE
+
+**ERROR: (IMPOAX-142):	Could not open shared library libcdsSkillPcell.so : /Lnx_STC/tools/cadence/INNOVUS18.10.000_lnx86/tools.lnx86/lib/64bit/libcdsSkillPcell.so: undefined symbol: _ZTIN12OpenAccess_413oaFSComponentE
+
+**ERROR: (IMPOAX-142):	OA features will be disabled in this session.
+
+@(#)CDS: Innovus v18.10-p002_1 (64bit) 05/29/2018 19:19 (Linux 2.6.18-194.el5)
+[04/16 22:49:52      9s] @(#)CDS: NanoRoute 18.10-p002_1 NR180522-1057/18_10-UB (database version 2.30, 418.7.1) {superthreading v1.46}
+[04/16 22:49:52      9s] @(#)CDS: AAE 18.10-p004 (64bit) 05/29/2018 (Linux 2.6.18-194.el5)
+[04/16 22:49:52      9s] @(#)CDS: CTE 18.10-p003_1 () May 15 2018 10:23:07 ( )
+[04/16 22:49:52      9s] @(#)CDS: SYNTECH 18.10-a012_1 () Apr 19 2018 01:27:21 ( )
+[04/16 22:49:52      9s] @(#)CDS: CPE v18.10-p005
+[04/16 22:49:52      9s] @(#)CDS: IQRC/TQRC 18.1.1-s118 (64bit) Fri Mar 23 17:23:45 PDT 2018 (Linux 2.6.18-194.el5)
+[04/16 22:49:52      9s] @(#)CDS: OA 22.50-p083 Tue Jan  2 17:02:41 2018
+[04/16 22:49:52      9s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[04/16 22:49:52      9s] @(#)CDS: RCDB 11.13
+[04/16 22:49:52      9s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_25527_ensc-esil-17_escmc29_5XRqvE.
+
+[04/16 22:49:52      9s] Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+[04/16 22:49:53      9s] 
+[04/16 22:49:53      9s] **INFO:  MMMC transition support version v31-84 
+[04/16 22:49:53      9s] 
+[04/16 22:49:53      9s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[04/16 22:49:53      9s] <CMD> suppressMessage ENCEXT-2799
+[04/16 22:49:53      9s] <CMD> win
+[04/16 22:49:58     10s] <CMD> uiSetTool stretchWire
+[04/16 22:49:58     10s] **ERROR: (IMPSYT-6788):	Design not in memory
+[04/16 22:50:11     10s] <CMD> set ::TimeLib::tsgMarkCellLatchConstructFlag 1
+[04/16 22:50:11     10s] <CMD> set conf_qxconf_file NULL
+[04/16 22:50:11     10s] <CMD> set conf_qxlib_file NULL
+[04/16 22:50:11     10s] <CMD> set defHierChar /
+[04/16 22:50:11     10s] <CMD> set distributed_client_message_echo 1
+[04/16 22:50:11     10s] <CMD> set distributed_mmmc_disable_reports_auto_redirection 0
+[04/16 22:50:11     10s] <CMD> set enc_enable_print_mode_command_reset_options 1
+[04/16 22:50:11     10s] <CMD> set init_gnd_net VSS
+[04/16 22:50:11     10s] <CMD> set init_lef_file /CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Back_End/lef/NangateOpenCellLibrary.lef
+[04/16 22:50:11     10s] <CMD> set init_mmmc_file Default.view
+[04/16 22:50:11     10s] <CMD> set init_pwr_net VDD
+[04/16 22:50:11     10s] <CMD> set init_top_cell aes128keyWrapper
+[04/16 22:50:11     10s] <CMD> set init_verilog inputs/aes128keyWrapper.ref.v
+[04/16 22:50:11     10s] <CMD> set latch_time_borrow_mode max_borrow
+[04/16 22:50:11     10s] <CMD> set pegDefaultResScaleFactor 1
+[04/16 22:50:21     11s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Fri Apr 16 22:50:21 2021
+  Total CPU time:     0:00:11
+  Total real time:    0:00:43
+  Peak memory (main): 416.59MB
+
+[04/16 22:50:21     11s] 
+[04/16 22:50:21     11s] *** Memory Usage v#1 (Current mem = 561.625M, initial mem = 259.465M) ***
+[04/16 22:50:21     11s] 
+[04/16 22:50:21     11s] *** Summary of all messages that are not suppressed in this session:
+[04/16 22:50:21     11s] Severity  ID               Count  Summary                                  
+[04/16 22:50:21     11s] ERROR     IMPSYT-6788          2  Design not in memory                     
+[04/16 22:50:21     11s] ERROR     IMPOAX-142           3  %s                                       
+[04/16 22:50:21     11s] *** Message Summary: 0 warning(s), 5 error(s)
+[04/16 22:50:21     11s] 
+[04/16 22:50:21     11s] --- Ending "Innovus" (totcpu=0:00:11.5, real=0:00:42.0, mem=561.6M) ---

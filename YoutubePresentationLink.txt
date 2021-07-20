@@ -1,0 +1,4 @@
+A 25-minute presenation was created to present the 32-bit SoC as a part of ENSC 450. 
+
+To view the presenation, please visit the link: 
+https://youtu.be/Tfh1EXNzn3k

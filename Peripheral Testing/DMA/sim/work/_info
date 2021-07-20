@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/net/home/escmc29/ensc450/ENSC450finalproject/Part1/DMA/sim
+Edma
+Z1 w1617757310
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z5 8../vhdl/dma.vhd
+Z6 F../vhdl/dma.vhd
+l0
+L25
+VEMl8gAA5DkSbl9B3]1;W`3
+!s100 D45CAl1=:IOSa0>[DXA:13
+Z7 OL;C;10.7a;67
+32
+Z8 !s110 1618020843
+!i10b 1
+Z9 !s108 1618020842.000000
+Z10 !s90 ../vhdl/dma.vhd|
+Z11 !s107 ../vhdl/dma.vhd|
+!i113 0
+Z12 tExplicit 1 NoCoverage 1 CvgOpt 0
+Abeh
+R2
+R3
+R4
+DEx4 work 3 dma 0 22 EMl8gAA5DkSbl9B3]1;W`3
+l57
+L45
+V<b>PFRMLXz@Dc;RfBBhcZ3
+!s100 mkRAFgC1MmX<A]IDUVX351
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+TDMA_TB
+R8
+VNlQImXlzTc2ioY6kL7GO:1
+04 6 9 work dma_tb behaviour 1
+o+acc
+tCvgOpt 0
+n@d@m@a_@t@b
+OL;O;10.7a;67
+Edma_tb
+Z13 w1618020813
+R3
+R4
+R0
+Z14 8../vhdl/dma_TB.vhd
+Z15 F../vhdl/dma_TB.vhd
+l0
+L6
+V64DXTCCnoI[3XDTR;?W^f3
+!s100 >_NSDcKm0DOo0c5?jVNnD3
+R7
+32
+R8
+!i10b 1
+Z16 !s108 1618020843.000000
+Z17 !s90 ../vhdl/dma_TB.vhd|
+Z18 !s107 ../vhdl/dma_TB.vhd|
+!i113 0
+R12
+Abehaviour
+R3
+R4
+DEx4 work 6 dma_tb 0 22 64DXTCCnoI[3XDTR;?W^f3
+l70
+L9
+VmX@22kbO:QmZ:dH1EY<K]2
+!s100 UbEL8B`U8JAXG4Ko2@[8a1
+R7
+32
+R8
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R12

@@ -1,0 +1,95 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/net/home/escmc29/ensc450/ENSC450finalproject/Part1/counter/sim
+T_opt
+!s110 1617770375
+V0>ho][D@1nAN3F>m8j@f]2
+04 9 8 work countertb behavior 1
+=1-484d7ee5db30-606d3786-e4e2a-7e07
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.7a;67
+Ecounter
+Z1 w1617759095
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+R0
+Z5 8../vhdl/counter.vhd
+Z6 F../vhdl/counter.vhd
+l0
+L29
+V;baNIUh>PM_PmL84eH30a0
+!s100 5aWUccN[ncM:ndiRR;dZh3
+Z7 OL;C;10.7a;67
+32
+Z8 !s110 1617770342
+!i10b 1
+Z9 !s108 1617770342.000000
+Z10 !s90 ../vhdl/counter.vhd|
+Z11 !s107 ../vhdl/counter.vhd|
+!i113 0
+Z12 tExplicit 1 CvgOpt 0
+Abeh
+R2
+R3
+R4
+DEx4 work 7 counter 0 22 ;baNIUh>PM_PmL84eH30a0
+l49
+L38
+V[C>OYzK8B^I^_>8Ki@`3G2
+!s100 8T`@j3cTmfK8A_n=@nZ]?1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Ecountertb
+Z13 w1617770338
+R4
+R3
+R0
+Z14 8../vhdl/counter_TB.vhd
+Z15 F../vhdl/counter_TB.vhd
+l0
+L6
+VlQ=8m]G^_UVN52GC7CmP`0
+!s100 gRE9eQmJiC2lY5>E4THLG3
+R7
+32
+R8
+!i10b 1
+R9
+Z16 !s90 ../vhdl/counter_TB.vhd|
+Z17 !s107 ../vhdl/counter_TB.vhd|
+!i113 0
+R12
+Abehavior
+R4
+R3
+DEx4 work 9 countertb 0 22 lQ=8m]G^_UVN52GC7CmP`0
+l39
+L9
+VRBS5EC:S]NEbcfO_?8BeR2
+!s100 9<Aahhz5[Ic3?f=5lG?LM2
+R7
+32
+R8
+!i10b 1
+R9
+R16
+R17
+!i113 0
+R12

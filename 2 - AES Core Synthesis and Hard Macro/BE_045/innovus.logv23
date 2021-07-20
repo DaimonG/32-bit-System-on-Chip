@@ -1,0 +1,54 @@
+[04/18 17:18:03      0s] 
+[04/18 17:18:03      0s] Cadence Innovus(TM) Implementation System.
+[04/18 17:18:03      0s] Copyright 2018 Cadence Design Systems, Inc. All rights reserved worldwide.
+[04/18 17:18:03      0s] 
+[04/18 17:18:03      0s] Version:	v18.10-p002_1, built Tue May 29 19:19:55 PDT 2018
+[04/18 17:18:03      0s] Options:	
+[04/18 17:18:03      0s] Date:		Sun Apr 18 17:18:03 2021
+[04/18 17:18:03      0s] Host:		ensc-esil-17 (x86_64 w/Linux 3.10.0-1127.el7.x86_64) (4cores*8cpus*Intel(R) Core(TM) i7-4770S CPU @ 3.10GHz 8192KB)
+[04/18 17:18:03      0s] OS:		CentOS Linux release 7.8.2003 (Core)
+[04/18 17:18:03      0s] 
+[04/18 17:18:03      0s] License:
+[04/18 17:18:04      0s] 		invs	Innovus Implementation System	18.1	checkout succeeded
+[04/18 17:18:04      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[04/18 17:18:06      0s] **ERROR: (IMPOAX-142):	Could not open shared library libinnovusoax22.so : /Lnx_STC/tools/cadence/INNOVUS18.10.000_lnx86/tools.lnx86/lib/64bit/libddbase_sh.so: undefined symbol: _ZTIN12OpenAccess_419oaVersionedObserverINS_12oaLibDefListELj1EEE
+
+**ERROR: (IMPOAX-142):	Could not open shared library libcdsSkillPcell.so : /Lnx_STC/tools/cadence/INNOVUS18.10.000_lnx86/tools.lnx86/lib/64bit/libcdsSkillPcell.so: undefined symbol: _ZTIN12OpenAccess_413oaFSComponentE
+
+**ERROR: (IMPOAX-142):	OA features will be disabled in this session.
+
+@(#)CDS: Innovus v18.10-p002_1 (64bit) 05/29/2018 19:19 (Linux 2.6.18-194.el5)
+[04/18 17:18:19      9s] @(#)CDS: NanoRoute 18.10-p002_1 NR180522-1057/18_10-UB (database version 2.30, 418.7.1) {superthreading v1.46}
+[04/18 17:18:19      9s] @(#)CDS: AAE 18.10-p004 (64bit) 05/29/2018 (Linux 2.6.18-194.el5)
+[04/18 17:18:19      9s] @(#)CDS: CTE 18.10-p003_1 () May 15 2018 10:23:07 ( )
+[04/18 17:18:19      9s] @(#)CDS: SYNTECH 18.10-a012_1 () Apr 19 2018 01:27:21 ( )
+[04/18 17:18:19      9s] @(#)CDS: CPE v18.10-p005
+[04/18 17:18:19      9s] @(#)CDS: IQRC/TQRC 18.1.1-s118 (64bit) Fri Mar 23 17:23:45 PDT 2018 (Linux 2.6.18-194.el5)
+[04/18 17:18:19      9s] @(#)CDS: OA 22.50-p083 Tue Jan  2 17:02:41 2018
+[04/18 17:18:19      9s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[04/18 17:18:19      9s] @(#)CDS: RCDB 11.13
+[04/18 17:18:19      9s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_6652_ensc-esil-17_escmc29_i4H6w0.
+
+[04/18 17:18:19      9s] Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+[04/18 17:18:20     10s] 
+[04/18 17:18:20     10s] **INFO:  MMMC transition support version v31-84 
+[04/18 17:18:20     10s] 
+[04/18 17:18:20     10s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[04/18 17:18:20     10s] <CMD> suppressMessage ENCEXT-2799
+[04/18 17:18:20     10s] <CMD> win
+[04/18 17:18:27     10s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Sun Apr 18 17:18:27 2021
+  Total CPU time:     0:00:10
+  Total real time:    0:00:26
+  Peak memory (main): 411.29MB
+
+[04/18 17:18:27     10s] 
+[04/18 17:18:27     10s] *** Memory Usage v#1 (Current mem = 552.602M, initial mem = 251.465M) ***
+[04/18 17:18:27     10s] 
+[04/18 17:18:27     10s] *** Summary of all messages that are not suppressed in this session:
+[04/18 17:18:27     10s] Severity  ID               Count  Summary                                  
+[04/18 17:18:27     10s] ERROR     IMPOAX-142           3  %s                                       
+[04/18 17:18:27     10s] *** Message Summary: 0 warning(s), 3 error(s)
+[04/18 17:18:27     10s] 
+[04/18 17:18:27     10s] --- Ending "Innovus" (totcpu=0:00:10.5, real=0:00:24.0, mem=552.6M) ---
